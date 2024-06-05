@@ -1,0 +1,14 @@
+###
+# GET Wastes
+GET http://localhost:5000/waste
+
+###
+# POST Wastes
+POST http://localhost:5000/waste
+Content-Type: application/json
+
+{
+    "name": "Karton",
+    "description": "Karton biasanya digunakan untuk kemasan produk, kotak pengiriman, dan berbagai aplikasi lainnya. Karton berlapis (seperti kotak susu atau jus) sering kali memiliki lapisan plastik atau aluminium.",
+    "management": "Karton harus dilipat dan diratakan sebelum didaur ulang. Karton yang bersih dan kering dapat didaur ulang. Karton yang terkontaminasi oleh makanan atau cairan harus dibuang sebagai sampah biasa atau dikomposkan jika memungkinkan."
+}
