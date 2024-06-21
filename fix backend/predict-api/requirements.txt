@@ -1,0 +1,6 @@
+fastapi
+tensorflow
+numpy
+google-cloud-firestore
+uvicorn
+Pillow
